@@ -1,0 +1,375 @@
+
+/*navbar styling*/
+.navbar{
+    background-color: #2D0035;
+    
+   
+}
+.navbar li{
+    padding: 8px;
+}
+.navbar a{
+    color: white;
+
+}
+.navbar a:hover{
+   color: rgb(203, 209, 38);
+}
+
+.navbar button span{
+   background-color: #cf5ce3;
+   color:#ff0000
+}
+/*home page styling*/
+.section {
+    text-align: center;
+    height: 300px;
+   
+  padding: 50px 10px;
+  color:#2D0035
+  
+}
+footer{
+    background-color: #2D0035;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+    padding: 8px;
+}
+
+/*tours page styling*/
+.row img{
+    width: 90%;
+    height: 380px;
+   margin-left: 10px;
+   margin-top: 10px;
+   
+}
+.row p{
+    font-size: 18px;
+   padding-left: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row .button button{
+    background-color:#2D0035;
+    color: white;
+    border: 1px solid white;
+    width: 22%;
+    
+}
+.row .button button:hover{
+    background-color: #cf5ce3;
+}
+/*form styling*/
+#myModal input{
+   border: 1px solid rgb(0, 1, 0);
+   margin-left: 6px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#myModal{
+    background-image: linear-gradient(to bottom right, #2D0035, #cf5ce3);
+}
+#myModal .modal-content{
+    background-color:rgb(230, 230, 230);
+}
+#myModal .modal-footer button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+#myModal .modal-footer button:hover{
+    background-color: rgb(74, 14, 14);
+}
+/*hotels page styling*/
+.info-desk{
+    margin: 10px;
+    
+}
+.info-desk div {
+    background-color: #e5e1e5;
+    height: 300px;
+}
+.info-desk div h2{
+    padding: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+}
+.info-desk div a{
+    color: white;
+    background-color:#2D0035;
+    border: 2px solid #e5e1e5;
+    border-radius: 6px;
+   padding: 6px;
+   font-size: large;
+   margin-left: 5px;
+   margin-top: 6px;
+}
+.info-desk div a:hover{
+    text-decoration: none;
+    background-color: #cf5ce3;
+}
+/*information desk main page*/
+#main{
+    text-align: center;
+    background-color: #e5e1e5;
+    height: 740px;
+    padding-top: 82px;
+
+}
+#main h1{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 42px;
+    padding-bottom: 20px;
+    color: #2D0035;
+}
+#main p{
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+#main button{
+    width: 14%;
+    height: 60px;
+    margin-right: 10px;
+   background-color: #2D0035;
+   margin-top: 14px;
+   padding: 8px;
+   border-radius: 4px;
+   box-shadow: 2px 3px 10px 4px rgb(124, 122, 122);
+}
+
+
+#main button a{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    background-color: #2D0035;
+}
+#main button a:hover{
+    text-decoration: none;
+    font-size:  26px;
+   
+}
+/*car rental page*/
+
+#car-rental-form{
+    background-color: #e5e1e5;
+    padding: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#car-rental-form .modal-content{
+    background-color:rgb(230, 230, 230);
+}
+#car-rental-form .modal-footer button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+#car-rental-form .modal-footer button:hover{
+    background-color: rgb(74, 14, 14);
+}
+#car-rental-form{
+    background-image: linear-gradient(to bottom right, #2D0035, #cf5ce3);
+}
+.car-rental button{
+    background-color:#2D0035;
+    color: white;
+    border: 1px solid white;
+    width: 30%;
+    
+}
+.car-rental button:hover{
+    background-color: #cf5ce3;
+    border: 1px solid black;
+}
+.car-info{
+    border: 2px solid #2D0035;
+    border-radius: 22px;
+    margin-left: 20%;
+    padding: 20px;
+    width: 60%;
+    margin-top: 40px;
+  background-color: #f7e0fb;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    box-shadow: 4px 4px 14px gray;
+    margin-bottom: 50px;
+}
+.car-info #car-submit{
+    background-color:#2D0035;
+    border: 3px solid white;
+    border-radius: 12px;
+   font-size:18px;
+   padding: 8px;
+   color: #e5e1e5;
+   text-decoration: none;
+    
+}
+.car-display {
+	padding: 50px 0;
+	background-color: #f5f5f5;
+}
+
+.car-display h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.car-display h3 {
+	font-size: 24px;
+	color: #ff0000;
+	margin-bottom: 20px;
+}
+
+.car-display .description {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.car-display .details {
+	margin-bottom: 30px;
+}
+
+.car-display .details ul {
+	list-style: none;
+}
+
+.car-display .details ul li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.car-display .details ul li span {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.car-display button {
+	background-color: #ff0000;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30
+
+}
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .page-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .flight-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flight-card {
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .flight-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .flight-details {
+        padding: 10px;
+    }
+    
+    .flight-name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .flight {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+    
+    .flight img {
+        margin-right: 20px;
+    }
+    
+    .flight-info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flight-info h2 {
+        margin-top: 0;
+    }
+    
+    .highlight {
+        font-weight: bold;
+    }
+    
+    .book-now-btn {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .book-now-btn:hover {
+        background-color: #555;
+    }
+    header {
+        background-color: #2D0035;
+        color: #fff;
+        padding: 1em;
+    }
+    
+    
+    /* Hero section styles */
+    .hero {
+        background-image: url(hero.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        padding: 5em 1em;
+        text-align: center;
+    }
+    
+    .hero h2 {
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+    
+    .hero p {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    .button {
+        background-color: #fff;
+        border: none;
+        border-radius: 0.5em;
+        color: #333;
+        display: inline-block;
+        font-size: 1.2em;
+        margin-top: 1em;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        transition: background-color 0}
